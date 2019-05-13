@@ -13,6 +13,12 @@ dotnet tool install -g dotnet-script
 The repository was bootstrapped using `dotnet script init` and you can run the
 script using `dotnet script main.csx`.
 
+## To-Do
+
+- [ ] Add checkboxen to the links and preserve the check status across renders
+
+## Snapshot
+
 <!-- Auto-Generated: -->
 The rest of this README is auto-generated. Generated on: 2019-05-13T13:11:18
 
