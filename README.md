@@ -46,9 +46,38 @@ The rest of this README is auto-generated. Generated on: 2019-05-13T16:06:37
 
 #### [Highlight all nodes affected by CSS property](https://developers.google.com/web/updates/2019/03/devtools#highlight)
 
+This highlights the areas introduce by box-model-affecting CSS properties (like `padding`, `margin`) the same way like
+the DevTools used to, but does it for all elements which are affected by the particular rule.
+
+```html
+<style>
+p {
+	margin: 3em;
+}
+</style>
+<p>first</p>
+<p>second</p>
+<p>third</p>
+```
+
+When hovering over `margin: 3em;`, an area will be highlighted around all of the paragraphs, not just the one selected
+in the Explorer tab in the DevTools.
+
+When using the Computed tab in the property inspector in the DevTools, highlighting over areas there will keep
+highlighting in the document only for the associated element, not all affected elements, so the behavior there differs
+now.
+
 #### [Lighthouse v4 in the Audits panel](https://developers.google.com/web/updates/2019/03/devtools#lighthouse)
 
 #### [WebSocket binary message viewer](https://developers.google.com/web/updates/2019/03/devtools#binary)
+
+I demonstrate the use of this feature in another repository of mine,
+[net-core-web-socket-server](https://github.com/TomasHubelbauer/net-core-web-socket-server).
+
+I face a problem where outgoing web socket frames show no data and report an incorrect lengths of zero bytes.
+Incoming frames show correct data and report correct length.
+
+I asked [a Stack Overflow question](https://stackoverflow.com/q/56114835/2715716) on the topic as a result.
 
 #### [Capture area screenshot in the Command Menu](https://developers.google.com/web/updates/2019/03/devtools#screenshot)
 
