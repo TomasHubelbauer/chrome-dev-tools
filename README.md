@@ -13,178 +13,338 @@ dotnet tool install -g dotnet-script
 The repository was bootstrapped using `dotnet script init` and you can run the
 script using `dotnet script main.csx`.
 
-## To-Do
-
-- [ ] Add checkboxen to the links and preserve the check status across renders
-
-## Snapshot
-
 <!-- Auto-Generated: -->
-The rest of this README is auto-generated. Generated on: 2019-05-13T13:11:18
+The rest of this README is auto-generated. Generated on: 2019-05-13T16:06:37
 
-- Chrome 75
-	- [Meaningful preset values when autocompleting CSS functions](https://developers.google.com/web/updates/2019/04/devtools#presets)
-	- [Clear site data from the Command Menu](https://developers.google.com/web/updates/2019/04/devtools#clear)
-	- [View all IndexedDB databases](https://developers.google.com/web/updates/2019/04/devtools#indexeddb)
-	- [View a resource's uncompressed size on hover](https://developers.google.com/web/updates/2019/04/devtools#uncompressed)
-	- [Inline breakpoints in the breakpoint pane](https://developers.google.com/web/updates/2019/04/devtools#inline)
-	- [IndexedDB and Cache resource counts](https://developers.google.com/web/updates/2019/04/devtools#counts)
-	- [Setting for disabling the detailed inspect tooltip](https://developers.google.com/web/updates/2019/04/devtools#inspect)
-	- [Setting for toggling tab indentation in the Sources panel editor](https://developers.google.com/web/updates/2019/04/devtools#tab)
-	- [Feedback](https://developers.google.com/web/updates/2019/04/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2019/04/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2019/04/devtools#discover)
-- Chrome 74
-	- [Video version of this page](https://developers.google.com/web/updates/2019/03/devtools#video)
-	- [Highlight all nodes affected by CSS property](https://developers.google.com/web/updates/2019/03/devtools#highlight)
-	- [Lighthouse v4 in the Audits panel](https://developers.google.com/web/updates/2019/03/devtools#lighthouse)
-	- [WebSocket binary message viewer](https://developers.google.com/web/updates/2019/03/devtools#binary)
-	- [Capture area screenshot in the Command Menu](https://developers.google.com/web/updates/2019/03/devtools#screenshot)
-	- [Service worker filters in the Network panel](https://developers.google.com/web/updates/2019/03/devtools#swfilters)
-	- [Performance panel updates](https://developers.google.com/web/updates/2019/03/devtools#perf)
-	- [Long tasks in Performance recordings](https://developers.google.com/web/updates/2019/03/devtools#longtasks)
-	- [First Paint in the Timings section](https://developers.google.com/web/updates/2019/03/devtools#FP)
-	- [New DOM tutorial](https://developers.google.com/web/updates/2019/03/devtools#dom)
-	- [Feedback](https://developers.google.com/web/updates/2019/03/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2019/03/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2019/03/devtools#discover)
-- Chrome 73
-	- [Video version of these release notes](https://developers.google.com/web/updates/2019/01/devtools#video)
-	- [Logpoints](https://developers.google.com/web/updates/2019/01/devtools#logpoints)
-	- [Detailed tooltips in Inspect Mode](https://developers.google.com/web/updates/2019/01/devtools#inspect)
-	- [Export code coverage data](https://developers.google.com/web/updates/2019/01/devtools#coverage)
-	- [Navigate the Console with the keyboard](https://developers.google.com/web/updates/2019/01/devtools#keyboard)
-	- [AAA contrast ratio line in the Color Picker](https://developers.google.com/web/updates/2019/01/devtools#AAA)
-	- [Save custom geolocation overrides](https://developers.google.com/web/updates/2019/01/devtools#geolocation)
-	- [Code folding](https://developers.google.com/web/updates/2019/01/devtools#folding)
-	- [Messages tab](https://developers.google.com/web/updates/2019/01/devtools#messages)
-	- [Feedback](https://developers.google.com/web/updates/2019/01/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2019/01/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2019/01/devtools#discover)
-- Chrome 72
-	- [Video version of these release notes](https://developers.google.com/web/updates/2018/11/devtools#video)
-	- [Visualize performance metrics](https://developers.google.com/web/updates/2018/11/devtools#metrics)
-	- [Highlight text nodes](https://developers.google.com/web/updates/2018/11/devtools#highlight)
-	- [Copy JS path](https://developers.google.com/web/updates/2018/11/devtools#copy)
-	- [Audits panel updates](https://developers.google.com/web/updates/2018/11/devtools#audits)
-	- [Feedback](https://developers.google.com/web/updates/2018/11/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2018/11/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2018/11/devtools#discover)
-- Chrome 71
-	- [Hover over a Live Expression to highlight a DOM node](https://developers.google.com/web/updates/2018/10/devtools#hover)
-	- [Store DOM nodes as global variables](https://developers.google.com/web/updates/2018/10/devtools#store)
-	- [Initiator and priority information now in HAR imports and exports](https://developers.google.com/web/updates/2018/10/devtools#HAR)
-	- [Access the Command Menu from the Main Menu](https://developers.google.com/web/updates/2018/10/devtools#command-menu)
-	- [Picture-in-Picture breakpoints](https://developers.google.com/web/updates/2018/10/devtools#picture-in-picture)
-	- [(Bonus Tip) Run monitorEvents() in the Console to watch an element's events fire](https://developers.google.com/web/updates/2018/10/devtools#bonus)
-	- [Feedback](https://developers.google.com/web/updates/2018/10/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2018/10/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2018/10/devtools#discover)
-- Chrome 70
-	- [Live Expressions in the Console](https://developers.google.com/web/updates/2018/08/devtools#watch)
-	- [Highlight DOM nodes during Eager Evaluation](https://developers.google.com/web/updates/2018/08/devtools#nodes)
-	- [Performance panel optimizations](https://developers.google.com/web/updates/2018/08/devtools#performance)
-	- [More reliable debugging](https://developers.google.com/web/updates/2018/08/devtools#debugging)
-	- [Enable network throttling from the Command Menu](https://developers.google.com/web/updates/2018/08/devtools#throttling)
-	- [Autocomplete Conditional Breakpoints](https://developers.google.com/web/updates/2018/08/devtools#autocomplete)
-	- [Break on AudioContext events](https://developers.google.com/web/updates/2018/08/devtools#audiocontext)
-	- [Debug Node.js apps with ndb](https://developers.google.com/web/updates/2018/08/devtools#ndb)
-	- [Bonus tip: Measure real world user interactions with the User Timing API](https://developers.google.com/web/updates/2018/08/devtools#bonus)
-	- [Feedback](https://developers.google.com/web/updates/2018/08/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2018/08/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2018/08/devtools#discover)
-- Chrome 68
-	- [Assistive Console](https://developers.google.com/web/updates/2018/05/devtools#console)
-	- [Faster, more reliable audits, a new UI, and new audits](https://developers.google.com/web/updates/2018/05/devtools#lh3)
-	- [BigInt support](https://developers.google.com/web/updates/2018/05/devtools#bigint)
-	- [Add property path to watch](https://developers.google.com/web/updates/2018/05/devtools#watch)
-	- ["Show timestamps" moved to settings](https://developers.google.com/web/updates/2018/05/devtools#timestamps)
-	- [Feedback](https://developers.google.com/web/updates/2018/05/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2018/05/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2018/05/devtools#discover)
-- Chrome 67
-	- [Search across all network headers and responses](https://developers.google.com/web/updates/2018/04/devtools#network-search)
-	- [Copy as fetch](https://developers.google.com/web/updates/2018/04/devtools#fetch)
-	- [Audits panel updates](https://developers.google.com/web/updates/2018/04/devtools#audits)
-	- [Stop infinite loops](https://developers.google.com/web/updates/2018/04/devtools#stop)
-	- [User Timing in the Performance tabs](https://developers.google.com/web/updates/2018/04/devtools#tabs)
-	- [Select JavaScript VM instances in the Memory panel](https://developers.google.com/web/updates/2018/04/devtools#vm)
-	- [Network tab renamed to Page tab](https://developers.google.com/web/updates/2018/04/devtools#page)
-	- [Dark theme updates](https://developers.google.com/web/updates/2018/04/devtools#dark)
-	- [Certificate transparency in the Security panel](https://developers.google.com/web/updates/2018/04/devtools#security)
-	- [Site Isolation in the Performance panel](https://developers.google.com/web/updates/2018/04/devtools#site-isolation)
-	- [Feedback](https://developers.google.com/web/updates/2018/04/devtools#feedback)
-	- [Consider Canary](https://developers.google.com/web/updates/2018/04/devtools#canary)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2018/04/devtools#discover)
-- Chrome 66
-	- [Blackboxing in the Network panel](https://developers.google.com/web/updates/2018/02/devtools#blackboxing)
-	- [Pretty-printing in the Preview and Response tabs](https://developers.google.com/web/updates/2018/02/devtools#pretty-printing)
-	- [Previewing HTML content in the Preview tab](https://developers.google.com/web/updates/2018/02/devtools#previews)
-	- [Auto-adjust zooming in Device Mode](https://developers.google.com/web/updates/2018/02/devtools#auto-adjust)
-	- [Local Overrides now works with some styles defined in HTML](https://developers.google.com/web/updates/2018/02/devtools#overrides)
-	- [Bonus tip: Blackbox framework scripts to make Event Listener Breakpoints more useful](https://developers.google.com/web/updates/2018/02/devtools#tip)
-	- [A request from the DevTools team: consider Canary](https://developers.google.com/web/updates/2018/02/devtools#canary)
-	- [Feedback](https://developers.google.com/web/updates/2018/02/devtools#feedback)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2018/02/devtools#discover)
-- Chrome 65
-	- [Local Overrides](https://developers.google.com/web/updates/2018/01/devtools#overrides)
-	- [The Changes tab](https://developers.google.com/web/updates/2018/01/devtools#changes)
-	- [New accessibility tools](https://developers.google.com/web/updates/2018/01/devtools#a11y)
-	- [New audits](https://developers.google.com/web/updates/2018/01/devtools#audits)
-	- [Reliable code stepping with workers and asynchronous code](https://developers.google.com/web/updates/2018/01/devtools#stepping)
-	- [Multiple recordings in the Performance panel](https://developers.google.com/web/updates/2018/01/devtools#recordings)
-	- [Bonus: Automate DevTools actions with Puppeteer 1.0](https://developers.google.com/web/updates/2018/01/devtools#puppeteer)
-	- [A request from the DevTools team: consider Canary](https://developers.google.com/web/updates/2018/01/devtools#canary)
-	- [Feedback](https://developers.google.com/web/updates/2018/01/devtools#feedback)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2018/01/devtools#discover)
-- Chrome 63
-	- [Multi-client remote debugging support](https://developers.google.com/web/updates/2017/10/devtools-release-notes#multi-client)
-	- [Workspaces 2.0](https://developers.google.com/web/updates/2017/10/devtools-release-notes#workspaces)
-	- [Four new audits](https://developers.google.com/web/updates/2017/10/devtools-release-notes#audits)
-	- [Simulate push notifications with custom data](https://developers.google.com/web/updates/2017/10/devtools-release-notes#push)
-	- [Trigger background sync events with custom tags](https://developers.google.com/web/updates/2017/10/devtools-release-notes#sync)
-	- [Feedback](https://developers.google.com/web/updates/2017/10/devtools-release-notes#feedback)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2017/10/devtools-release-notes#discover)
-- Chrome 64
-	- [Performance Monitor](https://developers.google.com/web/updates/2017/11/devtools-release-notes#perf-monitor)
-	- [Console Sidebar](https://developers.google.com/web/updates/2017/11/devtools-release-notes#console-sidebar)
-	- [Group similar Console messages](https://developers.google.com/web/updates/2017/11/devtools-release-notes#group-similar)
-	- [Local Overrides](https://developers.google.com/web/updates/2017/11/devtools-release-notes#overrides)
-	- [Feedback](https://developers.google.com/web/updates/2017/11/devtools-release-notes#feedback)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2017/11/devtools-release-notes#discover)
-- Chrome 62
-	- [Top-level await operators in the Console](https://developers.google.com/web/updates/2017/08/devtools-release-notes#await)
-	- [New screenshot workflows](https://developers.google.com/web/updates/2017/08/devtools-release-notes#screenshots)
-	- [CSS Grid highlighting](https://developers.google.com/web/updates/2017/08/devtools-release-notes#css-grid-highlighting)
-	- [A new API for querying heap objects](https://developers.google.com/web/updates/2017/08/devtools-release-notes#query-objects)
-	- [New Console filters](https://developers.google.com/web/updates/2017/08/devtools-release-notes#console-filters)
-	- [HAR imports in the Network panel](https://developers.google.com/web/updates/2017/08/devtools-release-notes#har-imports)
-	- [Previewable cache resources in the Application panel](https://developers.google.com/web/updates/2017/08/devtools-release-notes#cache-preview)
-	- [More responsive cache debugging](https://developers.google.com/web/updates/2017/08/devtools-release-notes#cache-debugging)
-	- [Block-level code coverage](https://developers.google.com/web/updates/2017/08/devtools-release-notes#coverage)
-	- [Feedback](https://developers.google.com/web/updates/2017/08/devtools-release-notes#feedback)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2017/08/devtools-release-notes#discover)
-- Chrome 61
-	- [Simulate low-end and mid-tier mobile devices in Device Mode](https://developers.google.com/web/updates/2017/07/devtools-release-notes#throttling)
-	- [View storage usage](https://developers.google.com/web/updates/2017/07/devtools-release-notes#storage)
-	- [View when a service worker cached responses](https://developers.google.com/web/updates/2017/07/devtools-release-notes#time-cached)
-	- [Enable the FPS Meter from the Command Menu](https://developers.google.com/web/updates/2017/07/devtools-release-notes#fps-meter)
-	- [Set mousewheel behavior to zoom or scroll with Performance recordings](https://developers.google.com/web/updates/2017/07/devtools-release-notes#mousewheel)
-	- [Debugging support for ES6 Modules](https://developers.google.com/web/updates/2017/07/devtools-release-notes#modules)
-	- [Feedback](https://developers.google.com/web/updates/2017/07/devtools-release-notes#feedback)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2017/07/devtools-release-notes#discover)
-- Chrome 60
-	- [New features](https://developers.google.com/web/updates/2017/05/devtools-release-notes#features)
-	- [Changes](https://developers.google.com/web/updates/2017/05/devtools-release-notes#changes)
-	- [DevTools at Google I/O '17](https://developers.google.com/web/updates/2017/05/devtools-release-notes#io)
-	- [Feedback](https://developers.google.com/web/updates/2017/05/devtools-release-notes#feedback)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2017/05/devtools-release-notes#discover)
-- Chrome 59
-	- [Highlights](https://developers.google.com/web/updates/2017/04/devtools-release-notes#highlights)
-	- [New features](https://developers.google.com/web/updates/2017/04/devtools-release-notes#new-features)
-	- [Changes](https://developers.google.com/web/updates/2017/04/devtools-release-notes#changes)
-	- [Discover other DevTools features](https://developers.google.com/web/updates/2017/04/devtools-release-notes#discover)
-- Chrome 58
-	- [Highlights](https://developers.google.com/web/updates/2017/03/devtools-release-notes#highlights)
-	- [New features](https://developers.google.com/web/updates/2017/03/devtools-release-notes#new_features)
-	- [Changes](https://developers.google.com/web/updates/2017/03/devtools-release-notes#changes)
+### Chrome 75
+
+#### [Meaningful preset values when autocompleting CSS functions](https://developers.google.com/web/updates/2019/04/devtools#presets)
+
+#### [Clear site data from the Command Menu](https://developers.google.com/web/updates/2019/04/devtools#clear)
+
+#### [View all IndexedDB databases](https://developers.google.com/web/updates/2019/04/devtools#indexeddb)
+
+#### [View a resource's uncompressed size on hover](https://developers.google.com/web/updates/2019/04/devtools#uncompressed)
+
+#### [Inline breakpoints in the breakpoint pane](https://developers.google.com/web/updates/2019/04/devtools#inline)
+
+#### [IndexedDB and Cache resource counts](https://developers.google.com/web/updates/2019/04/devtools#counts)
+
+#### [Setting for disabling the detailed inspect tooltip](https://developers.google.com/web/updates/2019/04/devtools#inspect)
+
+#### [Setting for toggling tab indentation in the Sources panel editor](https://developers.google.com/web/updates/2019/04/devtools#tab)
+
+#### [Feedback](https://developers.google.com/web/updates/2019/04/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2019/04/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2019/04/devtools#discover)
+
+### Chrome 74
+
+#### [Video version of this page](https://developers.google.com/web/updates/2019/03/devtools#video)
+
+#### [Highlight all nodes affected by CSS property](https://developers.google.com/web/updates/2019/03/devtools#highlight)
+
+#### [Lighthouse v4 in the Audits panel](https://developers.google.com/web/updates/2019/03/devtools#lighthouse)
+
+#### [WebSocket binary message viewer](https://developers.google.com/web/updates/2019/03/devtools#binary)
+
+#### [Capture area screenshot in the Command Menu](https://developers.google.com/web/updates/2019/03/devtools#screenshot)
+
+#### [Service worker filters in the Network panel](https://developers.google.com/web/updates/2019/03/devtools#swfilters)
+
+#### [Performance panel updates](https://developers.google.com/web/updates/2019/03/devtools#perf)
+
+#### [Long tasks in Performance recordings](https://developers.google.com/web/updates/2019/03/devtools#longtasks)
+
+#### [First Paint in the Timings section](https://developers.google.com/web/updates/2019/03/devtools#FP)
+
+#### [New DOM tutorial](https://developers.google.com/web/updates/2019/03/devtools#dom)
+
+#### [Feedback](https://developers.google.com/web/updates/2019/03/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2019/03/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2019/03/devtools#discover)
+
+### Chrome 73
+
+#### [Video version of these release notes](https://developers.google.com/web/updates/2019/01/devtools#video)
+
+#### [Logpoints](https://developers.google.com/web/updates/2019/01/devtools#logpoints)
+
+#### [Detailed tooltips in Inspect Mode](https://developers.google.com/web/updates/2019/01/devtools#inspect)
+
+#### [Export code coverage data](https://developers.google.com/web/updates/2019/01/devtools#coverage)
+
+#### [Navigate the Console with the keyboard](https://developers.google.com/web/updates/2019/01/devtools#keyboard)
+
+#### [AAA contrast ratio line in the Color Picker](https://developers.google.com/web/updates/2019/01/devtools#AAA)
+
+#### [Save custom geolocation overrides](https://developers.google.com/web/updates/2019/01/devtools#geolocation)
+
+#### [Code folding](https://developers.google.com/web/updates/2019/01/devtools#folding)
+
+#### [Messages tab](https://developers.google.com/web/updates/2019/01/devtools#messages)
+
+#### [Feedback](https://developers.google.com/web/updates/2019/01/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2019/01/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2019/01/devtools#discover)
+
+### Chrome 72
+
+#### [Video version of these release notes](https://developers.google.com/web/updates/2018/11/devtools#video)
+
+#### [Visualize performance metrics](https://developers.google.com/web/updates/2018/11/devtools#metrics)
+
+#### [Highlight text nodes](https://developers.google.com/web/updates/2018/11/devtools#highlight)
+
+#### [Copy JS path](https://developers.google.com/web/updates/2018/11/devtools#copy)
+
+#### [Audits panel updates](https://developers.google.com/web/updates/2018/11/devtools#audits)
+
+#### [Feedback](https://developers.google.com/web/updates/2018/11/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2018/11/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2018/11/devtools#discover)
+
+### Chrome 71
+
+#### [Hover over a Live Expression to highlight a DOM node](https://developers.google.com/web/updates/2018/10/devtools#hover)
+
+#### [Store DOM nodes as global variables](https://developers.google.com/web/updates/2018/10/devtools#store)
+
+#### [Initiator and priority information now in HAR imports and exports](https://developers.google.com/web/updates/2018/10/devtools#HAR)
+
+#### [Access the Command Menu from the Main Menu](https://developers.google.com/web/updates/2018/10/devtools#command-menu)
+
+#### [Picture-in-Picture breakpoints](https://developers.google.com/web/updates/2018/10/devtools#picture-in-picture)
+
+#### [(Bonus Tip) Run monitorEvents() in the Console to watch an element's events fire](https://developers.google.com/web/updates/2018/10/devtools#bonus)
+
+#### [Feedback](https://developers.google.com/web/updates/2018/10/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2018/10/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2018/10/devtools#discover)
+
+### Chrome 70
+
+#### [Live Expressions in the Console](https://developers.google.com/web/updates/2018/08/devtools#watch)
+
+#### [Highlight DOM nodes during Eager Evaluation](https://developers.google.com/web/updates/2018/08/devtools#nodes)
+
+#### [Performance panel optimizations](https://developers.google.com/web/updates/2018/08/devtools#performance)
+
+#### [More reliable debugging](https://developers.google.com/web/updates/2018/08/devtools#debugging)
+
+#### [Enable network throttling from the Command Menu](https://developers.google.com/web/updates/2018/08/devtools#throttling)
+
+#### [Autocomplete Conditional Breakpoints](https://developers.google.com/web/updates/2018/08/devtools#autocomplete)
+
+#### [Break on AudioContext events](https://developers.google.com/web/updates/2018/08/devtools#audiocontext)
+
+#### [Debug Node.js apps with ndb](https://developers.google.com/web/updates/2018/08/devtools#ndb)
+
+#### [Bonus tip: Measure real world user interactions with the User Timing API](https://developers.google.com/web/updates/2018/08/devtools#bonus)
+
+#### [Feedback](https://developers.google.com/web/updates/2018/08/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2018/08/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2018/08/devtools#discover)
+
+### Chrome 68
+
+#### [Assistive Console](https://developers.google.com/web/updates/2018/05/devtools#console)
+
+#### [Faster, more reliable audits, a new UI, and new audits](https://developers.google.com/web/updates/2018/05/devtools#lh3)
+
+#### [BigInt support](https://developers.google.com/web/updates/2018/05/devtools#bigint)
+
+#### [Add property path to watch](https://developers.google.com/web/updates/2018/05/devtools#watch)
+
+#### ["Show timestamps" moved to settings](https://developers.google.com/web/updates/2018/05/devtools#timestamps)
+
+#### [Feedback](https://developers.google.com/web/updates/2018/05/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2018/05/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2018/05/devtools#discover)
+
+### Chrome 67
+
+#### [Search across all network headers and responses](https://developers.google.com/web/updates/2018/04/devtools#network-search)
+
+#### [Copy as fetch](https://developers.google.com/web/updates/2018/04/devtools#fetch)
+
+#### [Audits panel updates](https://developers.google.com/web/updates/2018/04/devtools#audits)
+
+#### [Stop infinite loops](https://developers.google.com/web/updates/2018/04/devtools#stop)
+
+#### [User Timing in the Performance tabs](https://developers.google.com/web/updates/2018/04/devtools#tabs)
+
+#### [Select JavaScript VM instances in the Memory panel](https://developers.google.com/web/updates/2018/04/devtools#vm)
+
+#### [Network tab renamed to Page tab](https://developers.google.com/web/updates/2018/04/devtools#page)
+
+#### [Dark theme updates](https://developers.google.com/web/updates/2018/04/devtools#dark)
+
+#### [Certificate transparency in the Security panel](https://developers.google.com/web/updates/2018/04/devtools#security)
+
+#### [Site Isolation in the Performance panel](https://developers.google.com/web/updates/2018/04/devtools#site-isolation)
+
+#### [Feedback](https://developers.google.com/web/updates/2018/04/devtools#feedback)
+
+#### [Consider Canary](https://developers.google.com/web/updates/2018/04/devtools#canary)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2018/04/devtools#discover)
+
+### Chrome 66
+
+#### [Blackboxing in the Network panel](https://developers.google.com/web/updates/2018/02/devtools#blackboxing)
+
+#### [Pretty-printing in the Preview and Response tabs](https://developers.google.com/web/updates/2018/02/devtools#pretty-printing)
+
+#### [Previewing HTML content in the Preview tab](https://developers.google.com/web/updates/2018/02/devtools#previews)
+
+#### [Auto-adjust zooming in Device Mode](https://developers.google.com/web/updates/2018/02/devtools#auto-adjust)
+
+#### [Local Overrides now works with some styles defined in HTML](https://developers.google.com/web/updates/2018/02/devtools#overrides)
+
+#### [Bonus tip: Blackbox framework scripts to make Event Listener Breakpoints more useful](https://developers.google.com/web/updates/2018/02/devtools#tip)
+
+#### [A request from the DevTools team: consider Canary](https://developers.google.com/web/updates/2018/02/devtools#canary)
+
+#### [Feedback](https://developers.google.com/web/updates/2018/02/devtools#feedback)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2018/02/devtools#discover)
+
+### Chrome 65
+
+#### [Local Overrides](https://developers.google.com/web/updates/2018/01/devtools#overrides)
+
+#### [The Changes tab](https://developers.google.com/web/updates/2018/01/devtools#changes)
+
+#### [New accessibility tools](https://developers.google.com/web/updates/2018/01/devtools#a11y)
+
+#### [New audits](https://developers.google.com/web/updates/2018/01/devtools#audits)
+
+#### [Reliable code stepping with workers and asynchronous code](https://developers.google.com/web/updates/2018/01/devtools#stepping)
+
+#### [Multiple recordings in the Performance panel](https://developers.google.com/web/updates/2018/01/devtools#recordings)
+
+#### [Bonus: Automate DevTools actions with Puppeteer 1.0](https://developers.google.com/web/updates/2018/01/devtools#puppeteer)
+
+#### [A request from the DevTools team: consider Canary](https://developers.google.com/web/updates/2018/01/devtools#canary)
+
+#### [Feedback](https://developers.google.com/web/updates/2018/01/devtools#feedback)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2018/01/devtools#discover)
+
+### Chrome 63
+
+#### [Multi-client remote debugging support](https://developers.google.com/web/updates/2017/10/devtools-release-notes#multi-client)
+
+#### [Workspaces 2.0](https://developers.google.com/web/updates/2017/10/devtools-release-notes#workspaces)
+
+#### [Four new audits](https://developers.google.com/web/updates/2017/10/devtools-release-notes#audits)
+
+#### [Simulate push notifications with custom data](https://developers.google.com/web/updates/2017/10/devtools-release-notes#push)
+
+#### [Trigger background sync events with custom tags](https://developers.google.com/web/updates/2017/10/devtools-release-notes#sync)
+
+#### [Feedback](https://developers.google.com/web/updates/2017/10/devtools-release-notes#feedback)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2017/10/devtools-release-notes#discover)
+
+### Chrome 64
+
+#### [Performance Monitor](https://developers.google.com/web/updates/2017/11/devtools-release-notes#perf-monitor)
+
+#### [Console Sidebar](https://developers.google.com/web/updates/2017/11/devtools-release-notes#console-sidebar)
+
+#### [Group similar Console messages](https://developers.google.com/web/updates/2017/11/devtools-release-notes#group-similar)
+
+#### [Local Overrides](https://developers.google.com/web/updates/2017/11/devtools-release-notes#overrides)
+
+#### [Feedback](https://developers.google.com/web/updates/2017/11/devtools-release-notes#feedback)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2017/11/devtools-release-notes#discover)
+
+### Chrome 62
+
+#### [Top-level await operators in the Console](https://developers.google.com/web/updates/2017/08/devtools-release-notes#await)
+
+#### [New screenshot workflows](https://developers.google.com/web/updates/2017/08/devtools-release-notes#screenshots)
+
+#### [CSS Grid highlighting](https://developers.google.com/web/updates/2017/08/devtools-release-notes#css-grid-highlighting)
+
+#### [A new API for querying heap objects](https://developers.google.com/web/updates/2017/08/devtools-release-notes#query-objects)
+
+#### [New Console filters](https://developers.google.com/web/updates/2017/08/devtools-release-notes#console-filters)
+
+#### [HAR imports in the Network panel](https://developers.google.com/web/updates/2017/08/devtools-release-notes#har-imports)
+
+#### [Previewable cache resources in the Application panel](https://developers.google.com/web/updates/2017/08/devtools-release-notes#cache-preview)
+
+#### [More responsive cache debugging](https://developers.google.com/web/updates/2017/08/devtools-release-notes#cache-debugging)
+
+#### [Block-level code coverage](https://developers.google.com/web/updates/2017/08/devtools-release-notes#coverage)
+
+#### [Feedback](https://developers.google.com/web/updates/2017/08/devtools-release-notes#feedback)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2017/08/devtools-release-notes#discover)
+
+### Chrome 61
+
+#### [Simulate low-end and mid-tier mobile devices in Device Mode](https://developers.google.com/web/updates/2017/07/devtools-release-notes#throttling)
+
+#### [View storage usage](https://developers.google.com/web/updates/2017/07/devtools-release-notes#storage)
+
+#### [View when a service worker cached responses](https://developers.google.com/web/updates/2017/07/devtools-release-notes#time-cached)
+
+#### [Enable the FPS Meter from the Command Menu](https://developers.google.com/web/updates/2017/07/devtools-release-notes#fps-meter)
+
+#### [Set mousewheel behavior to zoom or scroll with Performance recordings](https://developers.google.com/web/updates/2017/07/devtools-release-notes#mousewheel)
+
+#### [Debugging support for ES6 Modules](https://developers.google.com/web/updates/2017/07/devtools-release-notes#modules)
+
+#### [Feedback](https://developers.google.com/web/updates/2017/07/devtools-release-notes#feedback)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2017/07/devtools-release-notes#discover)
+
+### Chrome 60
+
+#### [New features](https://developers.google.com/web/updates/2017/05/devtools-release-notes#features)
+
+#### [Changes](https://developers.google.com/web/updates/2017/05/devtools-release-notes#changes)
+
+#### [DevTools at Google I/O '17](https://developers.google.com/web/updates/2017/05/devtools-release-notes#io)
+
+#### [Feedback](https://developers.google.com/web/updates/2017/05/devtools-release-notes#feedback)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2017/05/devtools-release-notes#discover)
+
+### Chrome 59
+
+#### [Highlights](https://developers.google.com/web/updates/2017/04/devtools-release-notes#highlights)
+
+#### [New features](https://developers.google.com/web/updates/2017/04/devtools-release-notes#new-features)
+
+#### [Changes](https://developers.google.com/web/updates/2017/04/devtools-release-notes#changes)
+
+#### [Discover other DevTools features](https://developers.google.com/web/updates/2017/04/devtools-release-notes#discover)
+
+### Chrome 58
+
+#### [Highlights](https://developers.google.com/web/updates/2017/03/devtools-release-notes#highlights)
+
+#### [New features](https://developers.google.com/web/updates/2017/03/devtools-release-notes#new_features)
+
+#### [Changes](https://developers.google.com/web/updates/2017/03/devtools-release-notes#changes)
+
