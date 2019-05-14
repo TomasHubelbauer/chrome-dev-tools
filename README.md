@@ -81,6 +81,11 @@ I asked [a Stack Overflow question](https://stackoverflow.com/q/56114835/2715716
 
 #### [Capture area screenshot in the Command Menu](https://developers.google.com/web/updates/2019/03/devtools#screenshot)
 
+Ctrl/Cmd+Shift+P, type *area screenshot* and drag on the page to select an area to make a screenshot of.
+Upon pointer release, the screenshot will be downloaded to the default downloads folder.
+There are other screenshot modes accessible in the commands menu, type *screenshot* to see all.
+This feature also works in conjunction with the device view mode of the Chrome DevTools so mobile screenshots are possible.
+
 #### [Service worker filters in the Network panel](https://developers.google.com/web/updates/2019/03/devtools#swfilters)
 
 #### [Performance panel updates](https://developers.google.com/web/updates/2019/03/devtools#perf)
