@@ -88,6 +88,16 @@ This feature also works in conjunction with the device view mode of the Chrome D
 
 #### [Service worker filters in the Network panel](https://developers.google.com/web/updates/2019/03/devtools#swfilters)
 
+New self-explanatory filters added:
+
+- `is:service-worker-initiated`
+- `is:service-worker-intercepted`
+
+For all possible filters, see:
+
+- https://developers.google.com/web/tools/chrome-devtools/network/#filter
+- https://developers.google.com/web/tools/chrome-devtools/network/reference#filter
+
 #### [Performance panel updates](https://developers.google.com/web/updates/2019/03/devtools#perf)
 
 #### [Long tasks in Performance recordings](https://developers.google.com/web/updates/2019/03/devtools#longtasks)
