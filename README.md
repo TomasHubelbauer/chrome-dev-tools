@@ -392,3 +392,6 @@ For all possible filters, see:
 
 #### [Changes](https://developers.google.com/web/updates/2017/03/devtools-release-notes#changes)
 
+## To-Do
+
+Automate using GitHub Actions.
