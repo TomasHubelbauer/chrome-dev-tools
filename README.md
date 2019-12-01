@@ -394,4 +394,4 @@ For all possible filters, see:
 
 ## To-Do
 
-Automate using GitHub Actions.
+### Automate using GitHub Actions
