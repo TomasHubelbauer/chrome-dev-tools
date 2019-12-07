@@ -23,8 +23,7 @@ jobs:
         # Run the script
         curl -s https://raw.githubusercontent.com/filipw/dotnet-script/master/install/install.sh | sudo bash
         #dotnet tool install -g dotnet-script
-        ./usr/local/lib/dotnet-script/dotnet-script.sh main.csx
-        #dotnet script main.csx
+        dotnet script main.csx
         # Stage the generated data
         git add README.md
         # Commit the changes to the Git repository if any
