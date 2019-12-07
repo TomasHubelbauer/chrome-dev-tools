@@ -22,6 +22,8 @@ the agent.
 
 https://github.com/dotnet/core/issues/3974
 
+### Add personal notes to each feature
+
 ## Updates
 
 <!-- Auto-Generated: -->
