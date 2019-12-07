@@ -20,8 +20,9 @@ jobs:
         git config --global user.name "Tomas Hubelbauer"
         # Check out the `master` branch because by default GitHub Actions checks out detached HEAD
         git checkout master
-        # Run the script using the custom PAT which as the API is not accessible with the integration one
-        dotnet tool install -g dotnet-script
+        # Run the script
+        choco install dotnet.script
+        #dotnet tool install -g dotnet-script
         dotnet script main.csx
         # Stage the generated data
         git add README.md
