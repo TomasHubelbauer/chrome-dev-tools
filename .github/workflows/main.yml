@@ -21,7 +21,7 @@ jobs:
         # Check out the `master` branch because by default GitHub Actions checks out detached HEAD
         git checkout master
         # Run the script
-        choco install dotnet.script
+        curl -s https://raw.githubusercontent.com/filipw/dotnet-script/master/install/install.sh | bash
         #dotnet tool install -g dotnet-script
         dotnet script main.csx
         # Stage the generated data
