@@ -394,4 +394,9 @@ For all possible filters, see:
 
 ## To-Do
 
-### Automate using GitHub Actions
+### Await support response about using `dotnet tool`
+
+Cannot use `dotnet-script` because it asks for a restart, which I can't do on
+the agent.
+
+https://github.com/dotnet/core/issues/3974
