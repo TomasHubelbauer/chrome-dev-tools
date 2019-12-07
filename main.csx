@@ -57,10 +57,11 @@ using (var httpClient = new HttpClient())
   }
 
   // Parse out the menu items containing the label "DevTools"
-  var menuItemRegex = new Regex(@"href=""(?<uri>[^""]*)""[^>]*>What's New In DevTools \(Chrome (?<version>\d+)\)</a>");
+  // <a href="/web/updates/…/…/devtools" class="devsite-nav-title"><span class="devsite-nav-text" title="What&#39;s New In DevTools (Chrome …)">What&#39;s New In DevTools (Chrome …)</span></a>
+  var menuItemRegex = new Regex(@"<a\s+href=""(?<uri>\/web\/updates\/\d+\/\d+\/devtools)""\s+class=""devsite-nav-title""\s+>\s*<span\s+class=""devsite-nav-text""\s+title=""What&#39;s New In DevTools \(Chrome (?<version>\d+)\)"">");
   foreach (var menuItemMatch in menuItemRegex.Matches(capabilitiesPageSource).Cast<Match>())
   {
-    var uri = menuItemMatch.Groups["uri"].Value;
+    var uri = "https://developers.google.com/" + menuItemMatch.Groups["uri"].Value;
     var version = menuItemMatch.Groups["version"].Value;
 
     Console.WriteLine("Chrome " + version);
