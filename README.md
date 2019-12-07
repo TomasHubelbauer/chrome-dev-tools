@@ -13,6 +13,15 @@ dotnet tool install -g dotnet-script
 The repository was bootstrapped using `dotnet script init` and you can run the
 script using `dotnet script main.csx`.
 
+## To-Do
+
+### Await support response about using `dotnet tool`
+
+Cannot use `dotnet-script` because it asks for a restart, which I can't do on
+the agent.
+
+https://github.com/dotnet/core/issues/3974
+
 <!-- Auto-Generated: -->
 The rest of this README is auto-generated. Generated on: 2019-12-07T09:52:16
 
