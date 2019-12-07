@@ -31,8 +31,6 @@ The rest of this README is auto-generated. Generated on: 2019-12-07T11:14:27
 
 #### [Improved WebAssembly debugging](https://developers.google.com//web/updates/2019/12/devtools#webassembly)
 
-test lol
-
 #### [Network panel updates](https://developers.google.com//web/updates/2019/12/devtools#network)
 
 #### [Audits panel updates](https://developers.google.com//web/updates/2019/12/devtools#audits)
