@@ -27,7 +27,7 @@ https://github.com/dotnet/core/issues/3974
 ## Updates
 
 <!-- Auto-Generated: -->
-The rest of this README is auto-generated. Generated on: 2019-12-08T06:03:35
+The rest of this README is auto-generated. Generated on: 2019-12-09T06:03:03
 
 ### Chrome 80
 
