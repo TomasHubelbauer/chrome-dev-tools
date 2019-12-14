@@ -24,6 +24,10 @@ https://github.com/dotnet/core/issues/3974
 
 ### Add personal notes to each feature
 
+### Do not commit if there are no updates
+
+Right now there are always some due to the stamp.
+
 ## Updates
 
 <!-- Auto-Generated: -->
