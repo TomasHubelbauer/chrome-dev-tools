@@ -17,10 +17,10 @@ script using `dotnet script main.csx`.
 
 ## To-Do
 
-### Await support response about using `dotnet tool`
+### Fix `dotnet tool install -g dotnet-script` not working due to PATH change
 
-Cannot use `dotnet-script` because it asks for a restart, which I can't do on
-the agent.
+Either add `~/.dotnet/tools` to PATH prior to running `dotnet tool install` or
+use `--tool-path` to install to a directory that's already on the PATH.
 
 https://github.com/dotnet/core/issues/3974
 
